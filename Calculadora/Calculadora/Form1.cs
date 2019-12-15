@@ -46,7 +46,7 @@ namespace Calculadora
                 double x1 = Convert.ToDouble(s1);
                 double x2 = Convert.ToDouble(s2);
 
-                textBox3.Text = "" + (x1 + x2); // se ejecuta primero lo de l paréntesis y se le suma una cadena vacía para que sea string
+                textBox3.Text = "" + (x1 - x2); // se ejecuta primero lo de l paréntesis y se le suma una cadena vacía para que sea string
             }
             catch (FormatException ex)
             {
